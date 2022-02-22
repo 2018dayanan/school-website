@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box !important;
+}
+.top-navbar{
+	background: #8d2c26;
+	width: 100%;
+	
+
+}
+.contact-details{
+	height: 5vh;
+	align-items: center;
+
+}
+.contact-details a{
+	display: block;
+	margin: 0 10px 0 10px;
+	font-size: 1rem;
+	/*font-weight: bold;*/
+
+}
+.contact-details .fas{
+	margin: 0 10px;
+}
+.contact-details .fa-envelope{
+	margin-left: 20px;
+}
+
+.right-side{
+	height: 5vh;
+	align-items: center;
+	float: right;
+}
+.socila-icons{
+ margin-right: 50px;
+}
+.socila-icons a .fab{
+	font-size: 14px;
+}
