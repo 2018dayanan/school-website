@@ -11,19 +11,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/*width: 100%;
-	height: 100vh;*/
-	transition: 5s;
-
-	
-	/*animation: bg 5s infinite ease-in-out; */
-	animation-name: bg;
-	animation-direction: alternate-reverse;
-	animation-play-state: running;
-	animation-timing-function: ease-in-out;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
+	width: 100%;
+	animation: bg 20s infinite;
 	
 
 
@@ -37,7 +26,7 @@
 	
 
 	}
-	100%{
+	66%{
 	background: linear-gradient(#3339,#3339),url(../images/bg2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -47,10 +36,7 @@
 	}
 }
 
-/*.heading{
-	width: 100%;
-	margin: 0 auto;
-}*/
+
 .heading h1{
 	font-size: 4rem;
 	font-weight: 800;
@@ -82,21 +68,19 @@
 	font-size: 1.7em;
 }
 .main-icon{
-	/*text-align: center;*/
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .main-icon > a{
-	/*padding: 35px 2px;*/
+	
 	height: 87px;
 	width: 87px;
 	border: solid 1px #fff;
 	border-radius: 100%;
-	/*display: block;*/
 	transition: 0.4s;
 	display: flex;
-	/*align-items: center;*/
 	justify-content: center;
 	flex-direction: column;
 
@@ -141,8 +125,8 @@
 
 
 /*footer*/
-footer p{
-	color: ;
+footer {
+	
 }
 
 
