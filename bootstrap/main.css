@@ -52,6 +52,9 @@
 	color: #ffff;
 	border-bottom: dotted 1px;
 }
+.main{
+	padding-bottom: 6rem;
+}
 .main p{
 	font-size: 1.25em;
 	font-weight: 400;
@@ -126,7 +129,11 @@
 
 /*footer*/
 footer {
-	
+	position:fixed;
+	width: 100%;
+	bottom: 15px;
+	right: 0;
+	left: 0;
 }
 
 
